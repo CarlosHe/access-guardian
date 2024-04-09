@@ -1,0 +1,9 @@
+{
+	"name": "access-guardian",
+	"description": "Validate scopes",
+	"version": "0.1.0",
+	"homepage": "github.com/CarlosHe/access-guardian",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {}
+}
