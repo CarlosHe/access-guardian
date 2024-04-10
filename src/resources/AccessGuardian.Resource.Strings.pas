@@ -4,8 +4,8 @@ interface
 
 resourcestring
 
-  SMissingRequiredScope = 'Missing required scope: %s';
-  SSomeRequiredMissingScope = 'Some required missing scope: %s';
+  SMissingRequiredPermission = 'Missing required permission';
+  SSomeRequiredMissingPermission = 'Some required missing permission';
 
 
 implementation
