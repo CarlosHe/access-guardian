@@ -121,8 +121,6 @@ begin
 end;
 
 procedure TPermissionValidator<TSetOfEnum>.ValidateAnyPermission(const ALeftPermission: TSetOfEnum; ARightPermission: TSetOfEnum);
-var
-  LEnumString: string;
 begin
   if not HasAnyPermission(ALeftPermission, ARightPermission) then
     raise ESomeRequiredMissingPermission.Create;
